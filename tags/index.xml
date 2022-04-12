@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
+    <title>标签 on 多比Blog</title>
     <link>https://laolai.github.io/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <description>Recent content in 标签 on 多比Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://laolai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 11 Apr 2022 10:43:28 +0800</lastBuildDate><atom:link href="https://laolai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>计算机</title>
+      <link>https://laolai.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+      <pubDate>Mon, 11 Apr 2022 10:43:28 +0800</pubDate>
+      
+      <guid>https://laolai.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
