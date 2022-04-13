@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Hugo安装文档 :: 多比Blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="UTF-8"/>
+<meta name="renderer" content="webkit"/>
+<meta name="force-rendering" content="webkit"/>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<script>if ( false || (!!window.MSInputMethodContext && !!document.documentMode)) document.write('\x3Cscript id="_iealwn_js" data-outver="11" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); </script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 安装 Hugo 1. 二进制安装（推荐：简单、快速） 到 Hugo Releases 下载对应的操作系统版本的 Hugo 二进制文件（hugo 或者 hugo.exe） Mac 下直接使用 Homebrew 安装： brew install hugo 2. 源码安装 源码编译安装，首先安装好依赖的工具： Git Mercurial Go 1.3&#43; (Go 1.4&#43; on Windows) 设置好 GOPATH 环"/>
+<meta name="keywords" content=""/>
+<link rel="canonical" href="https://laolai.github.io/hugo_install/" />
+<link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:500&display=swap" media="print" onload="this.media='all'">
+<link rel="shortcut icon" href="https://laolai.github.io/favicon.ico">
+
+<meta property="og:title" content="Hugo安装文档" />
+<meta property="og:description" content="Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 安装 Hugo 1. 二进制安装（推荐：简单、快速） 到 Hugo Releases 下载对应的操作系统版本的 Hugo 二进制文件（hugo 或者 hugo.exe） Mac 下直接使用 Homebrew 安装： brew install hugo 2. 源码安装 源码编译安装，首先安装好依赖的工具： Git Mercurial Go 1.3&#43; (Go 1.4&#43; on Windows) 设置好 GOPATH 环" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laolai.github.io/hugo_install/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-11T10:43:28+08:00" />
+<meta property="article:modified_time" content="2022-04-11T10:43:28+08:00" />
+
+
+
+
+    
+  <link rel="prefetch" href="https://laolai.github.io/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA/">
+  <link rel="prefetch" href="https://laolai.github.io/about/">
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="https://laolai.github.io/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__text">多比Blog</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu hidden">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/archives/">归档</a></li>
+        
+      
+        
+          <li><a href="/about/">关于</a></li>
+        
+      
+    
+
+                <li><a href="/search/"><svg t="1556783211810" class="search-box-icon" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2078" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M981.39652054 920.86314525L704.56522859 644.0318533a366.65501012 366.65501012 0 1 0-61.73503038 65.64040943L917.55859375 984.40065827z m-856.17925347-493.12920861a284.19142939 284.19142939 0 1 1 283.89101562 284.19142939A284.49184317 284.49184317 0 0 1 125.06706019 427.73393664z" fill="" p-id="2079" data-spm-anchor-id="a313x.7781069.0.i2"></path></svg></a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/archives/">归档</a></li>
+      
+    
+      
+        <li><a href="/about/">关于</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+
+
+      <div class="content">
+        
+  
+  
+  
+  
+  <div class="post posts\技术\hugo_install.md">
+    <div  class="breadcrumb">
+  
+
+  
+
+  
+
+<li>
+  <a href="https://laolai.github.io/">首页</a>
+</li>
+
+
+<li>
+  <a href="https://laolai.github.io/posts/">文章</a>
+</li>
+
+
+<li class="active">
+  <a href="https://laolai.github.io/hugo_install/">Hugo安装文档</a>
+</li>
+
+</div>
+
+
+  
+    <h2 class="post-title"><a href="https://laolai.github.io/hugo_install/">Hugo安装文档</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">2022-04-11 10:43:28</span><span> / <span id="twikoo_visitors">0</span> 阅读</span><span> / <a href="#twikoo"><span id="twikoo_count">0 条评论</span></a></span>
+        
+          
+        
+      
+    </div>
+
+    
+  
+    <div class="post-content">
+      <blockquote>
+<p>Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
+</blockquote>
+<h3 id="安装-hugo">安装 Hugo</h3>
+<h4 id="1-二进制安装推荐简单快速">1. 二进制安装（推荐：简单、快速）</h4>
+<p>到 <a href="https://github.com/spf13/hugo/releases">Hugo Releases</a> 下载对应的操作系统版本的 Hugo 二进制文件（hugo 或者 hugo.exe）</p>
+<p>Mac 下直接使用 <code>Homebrew</code> 安装：</p>
+<pre tabindex="0"><code>brew install hugo
+</code></pre><h4 id="2-源码安装">2. 源码安装</h4>
+<p>源码编译安装，首先安装好依赖的工具：</p>
+<ul>
+<li><a href="http://git-scm.com/">Git</a></li>
+<li><a href="http://mercurial.selenic.com/">Mercurial</a></li>
+<li><a href="http://golang.org/">Go</a> 1.3+ (Go 1.4+ on Windows)</li>
+</ul>
+<p>设置好 <code>GOPATH</code> 环境变量，获取源码并编译：</p>
+<pre tabindex="0"><code>$ export GOPATH=$HOME/go
+$ go get -v github.com/spf13/hugo
+</code></pre><p>源码会下载到 <code>$GOPATH/src</code> 目录，二进制在 <code>$GOPATH/bin/</code></p>
+<p>如果需要更新所有 Hugo 的依赖库，增加 <code>-u</code> 参数：</p>
+<pre tabindex="0"><code>$ go get -u -v github.com/spf13/hugo
+</code></pre><h3 id="生成站点">生成站点</h3>
+<p>使用 Hugo 快速生成站点，比如希望生成到 <code>/path/to/site</code> 路径：</p>
+<pre tabindex="0"><code>$ hugo new site /path/to/site
+</code></pre><p>这样就在 <code>/path/to/site</code> 目录里生成了初始站点，进去目录：</p>
+<pre tabindex="0"><code>$ cd /path/to/site
+</code></pre><p>站点目录结构：</p>
+<pre tabindex="0"><code>▸ archetypes/
+  ▸ content/
+  ▸ layouts/
+  ▸ static/
+    config.toml
+</code></pre><h3 id="创建文章">创建文章</h3>
+<p>创建一个 <code>about</code> 页面：</p>
+<pre tabindex="0"><code>$ hugo new about.md
+</code></pre><p><code>about.md</code> 自动生成到了 <code>content/about.md</code> ，打开 <code>about.md</code> 看下：</p>
+<pre tabindex="0"><code>+++
+date = &#34;2015-10-25T08:36:54-07:00&#34;
+draft = true
+title = &#34;about&#34;
+
++++
+
+正文内容
+</code></pre><p>内容是 <code>Markdown</code> 格式的，<code>+++</code> 之间的内容是 <a href="https://github.com/toml-lang/toml">TOML</a> 格式的，根据你的喜好，你可以换成 <a href="http://www.yaml.org/">YAML</a> 格式（使用 <code>---</code> 标记）或者 <a href="http://www.json.org/">JSON</a> 格式。</p>
+<p>创建第一篇文章，放到 <code>post</code> 目录，方便之后生成聚合页面。</p>
+<pre tabindex="0"><code>$ hugo new post/first.md
+</code></pre><p>打开编辑 <code>post/first.md</code> ：</p>
+<pre tabindex="0"><code>---
+date: &#34;2015-10-25T08:36:54-07:00&#34;
+title: &#34;first&#34;
+ 
+---
+
+### Hello Hugo
+
+ 1. aaa
+ 1. bbb
+ 1. ccc
+</code></pre><h3 id="安装皮肤">安装皮肤</h3>
+<p>到 <a href="https://www.gohugo.org/theme/">皮肤列表</a> 挑选一个心仪的皮肤，比如你觉得 <code>Hyde</code> 皮肤不错，找到相关的 <code>GitHub</code> 地址，创建目录 <code>themes</code>，在 <code>themes</code> 目录里把皮肤 <code>git clone</code> 下来：</p>
+<pre tabindex="0"><code># 创建 themes 目录
+$ cd themes
+$ git clone https://github.com/spf13/hyde.git
+</code></pre><h3 id="运行-hugo">运行 Hugo</h3>
+<p>在你的站点根目录执行 <code>Hugo</code> 命令进行调试：</p>
+<pre tabindex="0"><code>$ hugo server --theme=hyde --buildDrafts
+</code></pre><p>（注明：v0.15 版本之后，不再需要使用 <code>--watch</code> 参数了）</p>
+<p>浏览器里打开： <code>http://localhost:1313</code></p>
+<h3 id="部署">部署</h3>
+<p>假设你需要部署在 <code>GitHub Pages</code> 上，首先在 GitHub 上创建一个 Repository，命名为：<code>coderzh.github.io</code> （coderzh 替换为你的 github 用户名）。</p>
+<p>在站点根目录执行 <code>Hugo</code> 命令生成最终页面：</p>
+<pre tabindex="0"><code>$ hugo --theme=hyde --baseUrl=&#34;http://coderzh.github.io/&#34;
+</code></pre><p>（注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 <code>draft=true</code> 再重新生成。）</p>
+<p>如果一切顺利，所有静态页面都会生成到 <code>public</code> 目录，将 pubilc 目录里所有文件 <code>push</code> 到刚创建的 Repository 的 <code>master</code> 分支。</p>
+<pre tabindex="0"><code>$ cd public
+$ git init
+$ git remote add origin https://github.com/coderzh/coderzh.github.io.git
+$ git add -A
+$ git commit -m &#34;first commit&#34;
+$ git push -u origin master
+</code></pre><p>浏览器里访问：<code>http://coderzh.github.io/</code></p>
+
+      
+    </div>
+  
+    
+      <div class="tocify">目录：
+
+
+
+
+<ul class="toc-h3"><li><a href="/hugo_install/#%e5%ae%89%e8%a3%85-hugo">安装 Hugo</a></li>
+            
+                    <ul class="toc-h4"><li><a href="/hugo_install/#1-%e4%ba%8c%e8%bf%9b%e5%88%b6%e5%ae%89%e8%a3%85%e6%8e%a8%e8%8d%90%e7%ae%80%e5%8d%95%e5%bf%ab%e9%80%9f">1. 二进制安装（推荐：简单、快速）</a></li>
+            <li><a href="/hugo_install/#2-%e6%ba%90%e7%a0%81%e5%ae%89%e8%a3%85">2. 源码安装</a></li>
+            
+                    </ul><li><a href="/hugo_install/#%e7%94%9f%e6%88%90%e7%ab%99%e7%82%b9">生成站点</a></li>
+            <li><a href="/hugo_install/#%e5%88%9b%e5%bb%ba%e6%96%87%e7%ab%a0">创建文章</a></li>
+            <li><a href="/hugo_install/#%e5%ae%89%e8%a3%85%e7%9a%ae%e8%82%a4">安装皮肤</a></li>
+            <li><a href="/hugo_install/#%e8%bf%90%e8%a1%8c-hugo">运行 Hugo</a></li>
+            <li><a href="/hugo_install/#%e9%83%a8%e7%bd%b2">部署</a></li>
+            </div>
+    
+
+    
+      <span class="post-tags">
+        
+          #<a href="https://laolai.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/">计算机</a>&nbsp;
+        
+      </span>
+    
+  
+    <div class="clear"></div>
+    
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            
+              <span class="pagination__title-h">阅读更多</span>
+            
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://laolai.github.io/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">一只特立独行的猪</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://laolai.github.io/about/">
+                  <span class="button__text">关于</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+        <div class="pagination__title">
+  <span class="pagination__title-h">欢迎评论</span>
+  <hr />
+</div>
+  <div id="tcomment"></div>
+  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.5.0/dist/twikoo.all.min.js"></script>
+  <script>twikoo.init({ envId: 'oac-1619483729-2gy9czs3dd08612f', el: '#tcomment' })</script>
+
+  <script type="text/javascript" src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+      var checkComments = setInterval(function() {
+        var counts = $('.tk-comments-title').find('span').first().text();
+        if (counts) {
+          $('#twikoo_count').text(counts)
+          clearInterval(checkComments);
+        }
+      }, 1000);
+      if(window.location.hash){
+        var checkExist = setInterval(function() {
+          if ($(window.location.hash).length) {
+            $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+            clearInterval(checkExist);
+          }
+        }, 100);
+      }
+    });
+  </script>
+    
+
+    </div>
+
+      </div>
+
+      
+        
+
+<footer class="footer">
+  <div class="footer__inner">
+    
+  </div>
+</footer>
+
+<script type="text/javascript" src="/main.js?t=20220124"></script>
+
+<script type="text/javascript" src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
+<script type="text/javascript" src="/lately2.min.js"></script>
+<script type="text/javascript" src="/jquery.vticker.js"></script>
+<script type="text/javascript" src="/waterfall.min.js"></script>
+<script type="text/javascript" src="/slimbox2.min.js"></script>
+<script type="text/javascript" src="/main-diy-0325.js"></script>
+      
+    </div>
+  </body>
+</html>
