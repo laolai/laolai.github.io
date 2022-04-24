@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://laolai.github.io/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA/</loc>
-    <lastmod>2022-04-24T10:52:24+08:00</lastmod>
+    <loc>https://laolai.github.io/%E5%90%89%E6%97%A5%E5%AE%89%E8%91%AC-%E5%9B%BD%E5%86%85%E7%9A%84%E9%AD%94%E5%B9%BB%E7%8E%B0%E5%AE%9E%E4%B8%BB%E4%B9%89/</loc>
+    <lastmod>2022-04-24T13:10:14+08:00</lastmod>
+  </url><url>
+    <loc>https://laolai.github.io/tags/%E5%BD%B1%E8%AF%84/</loc>
+    <lastmod>2022-04-24T13:10:14+08:00</lastmod>
+  </url><url>
+    <loc>https://laolai.github.io/posts/chat/</loc>
+    <lastmod>2022-04-24T13:10:14+08:00</lastmod>
   </url><url>
     <loc>https://laolai.github.io/posts/</loc>
+    <lastmod>2022-04-24T13:10:14+08:00</lastmod>
+  </url><url>
+    <loc>https://laolai.github.io/tags/</loc>
+    <lastmod>2022-04-24T13:10:14+08:00</lastmod>
+  </url><url>
+    <loc>https://laolai.github.io/</loc>
+    <lastmod>2022-04-24T13:10:14+08:00</lastmod>
+  </url><url>
+    <loc>https://laolai.github.io/%E4%B8%80%E5%8F%AA%E7%89%B9%E7%AB%8B%E7%8B%AC%E8%A1%8C%E7%9A%84%E7%8C%AA/</loc>
     <lastmod>2022-04-24T10:52:24+08:00</lastmod>
   </url><url>
     <loc>https://laolai.github.io/tags/%E6%9D%82%E6%96%87/</loc>
     <lastmod>2022-04-24T10:52:24+08:00</lastmod>
   </url><url>
-    <loc>https://laolai.github.io/tags/</loc>
-    <lastmod>2022-04-24T10:52:24+08:00</lastmod>
-  </url><url>
     <loc>https://laolai.github.io/posts/reading/</loc>
-    <lastmod>2022-04-24T10:52:24+08:00</lastmod>
-  </url><url>
-    <loc>https://laolai.github.io/</loc>
     <lastmod>2022-04-24T10:52:24+08:00</lastmod>
   </url><url>
     <loc>https://laolai.github.io/tags/%E8%AF%97%E8%AF%8D/</loc>
@@ -46,7 +55,5 @@
     <loc>https://laolai.github.io/archives/</loc>
   </url><url>
     <loc>https://laolai.github.io/posts/daily/</loc>
-  </url><url>
-    <loc>https://laolai.github.io/posts/chat/</loc>
   </url>
 </urlset>
